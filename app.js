@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/testinf', (req, res) => {
-  res.send('Hello World from testing route!')
+  res.send('Hello World from testing routes!')
 })
 
 app.listen(port, () => {
