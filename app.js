@@ -32,10 +32,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World! app is running succesfully on 3000!')
+  res.send('Hello World! app is running succesfully on port 3000!')
 })
 
-app.get('/testinf', (req, res) => {
+app.get('/testing', (req, res) => {
   res.send('Hello World from testing routes!')
 })
 
