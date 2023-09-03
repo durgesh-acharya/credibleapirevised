@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World! app is running succesfully')
+  res.send('Hello World! app is running succesfully!')
 })
 
 app.get('/testinf', (req, res) => {
